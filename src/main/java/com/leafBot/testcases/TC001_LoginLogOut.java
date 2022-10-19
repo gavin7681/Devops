@@ -11,7 +11,7 @@ public class TC001_LoginLogOut extends ProjectSpecificMethods{
 	@BeforeTest
 	public void setValues() {
 		testCaseName = "Login and LoginOut";
-		testDescription = "Login testCase using DemoSalesManager UserName and LogOut";
+		testDescription = "Login testCase using DemoSalesManager UserName and LogOut Test Case";
 		nodes = "Leads";
 		authors = "Hari";
 		category = "Smoke";
