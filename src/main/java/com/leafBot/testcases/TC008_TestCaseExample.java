@@ -12,10 +12,12 @@ public class TC008_TestCaseExample {
 
 	@Test
 	public void example() {
+		
+		
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("headless");
-		opt.addArguments("disable.gp");
+		//opt.addArguments("disable.gp");
 		ChromeDriver driver = new ChromeDriver(opt);
 		driver.get("https://leafground.com");
 
